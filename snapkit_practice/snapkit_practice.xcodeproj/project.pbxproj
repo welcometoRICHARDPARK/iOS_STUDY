@@ -7,87 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BCF25AC25BB220B00F02CF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF25AB25BB220B00F02CF1 /* AppDelegate.swift */; };
-		0BCF25AE25BB220B00F02CF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF25AD25BB220B00F02CF1 /* SceneDelegate.swift */; };
-		0BCF25B025BB220B00F02CF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF25AF25BB220B00F02CF1 /* ViewController.swift */; };
-		0BCF25B325BB220B00F02CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCF25B125BB220B00F02CF1 /* Main.storyboard */; };
-		0BCF25B525BB220E00F02CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCF25B425BB220E00F02CF1 /* Assets.xcassets */; };
-		0BCF25B825BB220E00F02CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCF25B625BB220E00F02CF1 /* LaunchScreen.storyboard */; };
-		10CB7D850DA25FF9FE60425F /* Pods_snapkit_practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA7FE3C9D387FA080977ECA /* Pods_snapkit_practice.framework */; };
+		0BCF261925BBAF5A00F02CF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF261825BBAF5A00F02CF1 /* AppDelegate.swift */; };
+		0BCF261B25BBAF5A00F02CF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF261A25BBAF5A00F02CF1 /* SceneDelegate.swift */; };
+		0BCF261D25BBAF5A00F02CF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF261C25BBAF5A00F02CF1 /* ViewController.swift */; };
+		0BCF262025BBAF5A00F02CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCF261E25BBAF5A00F02CF1 /* Main.storyboard */; };
+		0BCF262225BBAF5C00F02CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCF262125BBAF5C00F02CF1 /* Assets.xcassets */; };
+		0BCF262525BBAF5C00F02CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCF262325BBAF5C00F02CF1 /* LaunchScreen.storyboard */; };
+		5868B48FAC58CD106EB12232 /* Pods_snapkit_practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12D0F70A8E94D1F15BB5E331 /* Pods_snapkit_practice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0BCF25A825BB220B00F02CF1 /* snapkit_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapkit_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BCF25AB25BB220B00F02CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BCF25AD25BB220B00F02CF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0BCF25AF25BB220B00F02CF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0BCF25B225BB220B00F02CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0BCF25B425BB220E00F02CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0BCF25B725BB220E00F02CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0BCF25B925BB220E00F02CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38E579B125761675C9CA5A0E /* Pods-snapkit_practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snapkit_practice.release.xcconfig"; path = "Target Support Files/Pods-snapkit_practice/Pods-snapkit_practice.release.xcconfig"; sourceTree = "<group>"; };
-		BBCB3911755D304DF3849DB9 /* Pods-snapkit_practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snapkit_practice.debug.xcconfig"; path = "Target Support Files/Pods-snapkit_practice/Pods-snapkit_practice.debug.xcconfig"; sourceTree = "<group>"; };
-		BEA7FE3C9D387FA080977ECA /* Pods_snapkit_practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snapkit_practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BCF261525BBAF5A00F02CF1 /* snapkit_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapkit_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BCF261825BBAF5A00F02CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BCF261A25BBAF5A00F02CF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0BCF261C25BBAF5A00F02CF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BCF261F25BBAF5A00F02CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BCF262125BBAF5C00F02CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BCF262425BBAF5C00F02CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BCF262625BBAF5C00F02CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D0F70A8E94D1F15BB5E331 /* Pods_snapkit_practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_snapkit_practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C7C959E856CE90A73D916C /* Pods-snapkit_practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snapkit_practice.debug.xcconfig"; path = "Target Support Files/Pods-snapkit_practice/Pods-snapkit_practice.debug.xcconfig"; sourceTree = "<group>"; };
+		B7FDF146B989D15B04206215 /* Pods-snapkit_practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-snapkit_practice.release.xcconfig"; path = "Target Support Files/Pods-snapkit_practice/Pods-snapkit_practice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0BCF25A525BB220B00F02CF1 /* Frameworks */ = {
+		0BCF261225BBAF5A00F02CF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10CB7D850DA25FF9FE60425F /* Pods_snapkit_practice.framework in Frameworks */,
+				5868B48FAC58CD106EB12232 /* Pods_snapkit_practice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BCF259F25BB220B00F02CF1 = {
+		08A3A1930CFDB0A93ECCD018 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0BCF25AA25BB220B00F02CF1 /* snapkit_practice */,
-				0BCF25A925BB220B00F02CF1 /* Products */,
-				64739671880F136E482BB2C0 /* Pods */,
-				79C6B7CF4887272C6AEE1B05 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		0BCF25A925BB220B00F02CF1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0BCF25A825BB220B00F02CF1 /* snapkit_practice.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0BCF25AA25BB220B00F02CF1 /* snapkit_practice */ = {
-			isa = PBXGroup;
-			children = (
-				0BCF25AB25BB220B00F02CF1 /* AppDelegate.swift */,
-				0BCF25AD25BB220B00F02CF1 /* SceneDelegate.swift */,
-				0BCF25AF25BB220B00F02CF1 /* ViewController.swift */,
-				0BCF25B125BB220B00F02CF1 /* Main.storyboard */,
-				0BCF25B425BB220E00F02CF1 /* Assets.xcassets */,
-				0BCF25B625BB220E00F02CF1 /* LaunchScreen.storyboard */,
-				0BCF25B925BB220E00F02CF1 /* Info.plist */,
-			);
-			path = snapkit_practice;
-			sourceTree = "<group>";
-		};
-		64739671880F136E482BB2C0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BBCB3911755D304DF3849DB9 /* Pods-snapkit_practice.debug.xcconfig */,
-				38E579B125761675C9CA5A0E /* Pods-snapkit_practice.release.xcconfig */,
+				98C7C959E856CE90A73D916C /* Pods-snapkit_practice.debug.xcconfig */,
+				B7FDF146B989D15B04206215 /* Pods-snapkit_practice.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		79C6B7CF4887272C6AEE1B05 /* Frameworks */ = {
+		0BCF260C25BBAF5A00F02CF1 = {
 			isa = PBXGroup;
 			children = (
-				BEA7FE3C9D387FA080977ECA /* Pods_snapkit_practice.framework */,
+				0BCF261725BBAF5A00F02CF1 /* snapkit_practice */,
+				0BCF261625BBAF5A00F02CF1 /* Products */,
+				08A3A1930CFDB0A93ECCD018 /* Pods */,
+				EA3A10C2C5F4E17DF90B276E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0BCF261625BBAF5A00F02CF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BCF261525BBAF5A00F02CF1 /* snapkit_practice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BCF261725BBAF5A00F02CF1 /* snapkit_practice */ = {
+			isa = PBXGroup;
+			children = (
+				0BCF261825BBAF5A00F02CF1 /* AppDelegate.swift */,
+				0BCF261A25BBAF5A00F02CF1 /* SceneDelegate.swift */,
+				0BCF261C25BBAF5A00F02CF1 /* ViewController.swift */,
+				0BCF261E25BBAF5A00F02CF1 /* Main.storyboard */,
+				0BCF262125BBAF5C00F02CF1 /* Assets.xcassets */,
+				0BCF262325BBAF5C00F02CF1 /* LaunchScreen.storyboard */,
+				0BCF262625BBAF5C00F02CF1 /* Info.plist */,
+			);
+			path = snapkit_practice;
+			sourceTree = "<group>";
+		};
+		EA3A10C2C5F4E17DF90B276E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12D0F70A8E94D1F15BB5E331 /* Pods_snapkit_practice.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,15 +95,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0BCF25A725BB220B00F02CF1 /* snapkit_practice */ = {
+		0BCF261425BBAF5A00F02CF1 /* snapkit_practice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0BCF25BC25BB220E00F02CF1 /* Build configuration list for PBXNativeTarget "snapkit_practice" */;
+			buildConfigurationList = 0BCF262925BBAF5C00F02CF1 /* Build configuration list for PBXNativeTarget "snapkit_practice" */;
 			buildPhases = (
-				F677FCE391C580196F295E08 /* [CP] Check Pods Manifest.lock */,
-				0BCF25A425BB220B00F02CF1 /* Sources */,
-				0BCF25A525BB220B00F02CF1 /* Frameworks */,
-				0BCF25A625BB220B00F02CF1 /* Resources */,
-				009619D7AE5C7D9F08440A5F /* [CP] Embed Pods Frameworks */,
+				A00EF808BD41547FDC056C4D /* [CP] Check Pods Manifest.lock */,
+				0BCF261125BBAF5A00F02CF1 /* Sources */,
+				0BCF261225BBAF5A00F02CF1 /* Frameworks */,
+				0BCF261325BBAF5A00F02CF1 /* Resources */,
+				2926DE2AC5E3BD0F9EBB2848 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,24 +111,24 @@
 			);
 			name = snapkit_practice;
 			productName = snapkit_practice;
-			productReference = 0BCF25A825BB220B00F02CF1 /* snapkit_practice.app */;
+			productReference = 0BCF261525BBAF5A00F02CF1 /* snapkit_practice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0BCF25A025BB220B00F02CF1 /* Project object */ = {
+		0BCF260D25BBAF5A00F02CF1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					0BCF25A725BB220B00F02CF1 = {
+					0BCF261425BBAF5A00F02CF1 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = 0BCF25A325BB220B00F02CF1 /* Build configuration list for PBXProject "snapkit_practice" */;
+			buildConfigurationList = 0BCF261025BBAF5A00F02CF1 /* Build configuration list for PBXProject "snapkit_practice" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,31 +136,31 @@
 				en,
 				Base,
 			);
-			mainGroup = 0BCF259F25BB220B00F02CF1;
-			productRefGroup = 0BCF25A925BB220B00F02CF1 /* Products */;
+			mainGroup = 0BCF260C25BBAF5A00F02CF1;
+			productRefGroup = 0BCF261625BBAF5A00F02CF1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BCF25A725BB220B00F02CF1 /* snapkit_practice */,
+				0BCF261425BBAF5A00F02CF1 /* snapkit_practice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0BCF25A625BB220B00F02CF1 /* Resources */ = {
+		0BCF261325BBAF5A00F02CF1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCF25B825BB220E00F02CF1 /* LaunchScreen.storyboard in Resources */,
-				0BCF25B525BB220E00F02CF1 /* Assets.xcassets in Resources */,
-				0BCF25B325BB220B00F02CF1 /* Main.storyboard in Resources */,
+				0BCF262525BBAF5C00F02CF1 /* LaunchScreen.storyboard in Resources */,
+				0BCF262225BBAF5C00F02CF1 /* Assets.xcassets in Resources */,
+				0BCF262025BBAF5A00F02CF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		009619D7AE5C7D9F08440A5F /* [CP] Embed Pods Frameworks */ = {
+		2926DE2AC5E3BD0F9EBB2848 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -177,7 +177,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-snapkit_practice/Pods-snapkit_practice-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F677FCE391C580196F295E08 /* [CP] Check Pods Manifest.lock */ = {
+		A00EF808BD41547FDC056C4D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,31 +202,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0BCF25A425BB220B00F02CF1 /* Sources */ = {
+		0BCF261125BBAF5A00F02CF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCF25B025BB220B00F02CF1 /* ViewController.swift in Sources */,
-				0BCF25AC25BB220B00F02CF1 /* AppDelegate.swift in Sources */,
-				0BCF25AE25BB220B00F02CF1 /* SceneDelegate.swift in Sources */,
+				0BCF261D25BBAF5A00F02CF1 /* ViewController.swift in Sources */,
+				0BCF261925BBAF5A00F02CF1 /* AppDelegate.swift in Sources */,
+				0BCF261B25BBAF5A00F02CF1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0BCF25B125BB220B00F02CF1 /* Main.storyboard */ = {
+		0BCF261E25BBAF5A00F02CF1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0BCF25B225BB220B00F02CF1 /* Base */,
+				0BCF261F25BBAF5A00F02CF1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0BCF25B625BB220E00F02CF1 /* LaunchScreen.storyboard */ = {
+		0BCF262325BBAF5C00F02CF1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0BCF25B725BB220E00F02CF1 /* Base */,
+				0BCF262425BBAF5C00F02CF1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -234,7 +234,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0BCF25BA25BB220E00F02CF1 /* Debug */ = {
+		0BCF262725BBAF5C00F02CF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -295,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		0BCF25BB25BB220E00F02CF1 /* Release */ = {
+		0BCF262825BBAF5C00F02CF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -350,9 +350,9 @@
 			};
 			name = Release;
 		};
-		0BCF25BD25BB220E00F02CF1 /* Debug */ = {
+		0BCF262A25BBAF5C00F02CF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBCB3911755D304DF3849DB9 /* Pods-snapkit_practice.debug.xcconfig */;
+			baseConfigurationReference = 98C7C959E856CE90A73D916C /* Pods-snapkit_practice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -370,9 +370,9 @@
 			};
 			name = Debug;
 		};
-		0BCF25BE25BB220E00F02CF1 /* Release */ = {
+		0BCF262B25BBAF5C00F02CF1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38E579B125761675C9CA5A0E /* Pods-snapkit_practice.release.xcconfig */;
+			baseConfigurationReference = B7FDF146B989D15B04206215 /* Pods-snapkit_practice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -393,25 +393,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0BCF25A325BB220B00F02CF1 /* Build configuration list for PBXProject "snapkit_practice" */ = {
+		0BCF261025BBAF5A00F02CF1 /* Build configuration list for PBXProject "snapkit_practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BCF25BA25BB220E00F02CF1 /* Debug */,
-				0BCF25BB25BB220E00F02CF1 /* Release */,
+				0BCF262725BBAF5C00F02CF1 /* Debug */,
+				0BCF262825BBAF5C00F02CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0BCF25BC25BB220E00F02CF1 /* Build configuration list for PBXNativeTarget "snapkit_practice" */ = {
+		0BCF262925BBAF5C00F02CF1 /* Build configuration list for PBXNativeTarget "snapkit_practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0BCF25BD25BB220E00F02CF1 /* Debug */,
-				0BCF25BE25BB220E00F02CF1 /* Release */,
+				0BCF262A25BBAF5C00F02CF1 /* Debug */,
+				0BCF262B25BBAF5C00F02CF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0BCF25A025BB220B00F02CF1 /* Project object */;
+	rootObject = 0BCF260D25BBAF5A00F02CF1 /* Project object */;
 }
