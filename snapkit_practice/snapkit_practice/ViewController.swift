@@ -11,7 +11,7 @@ import SnapKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        
+        print("hello world!")
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
