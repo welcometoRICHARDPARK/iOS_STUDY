@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         
         
         todayContainerStackView.snp.makeConstraints { (make) in
-            make.height.equalTo(100)
+            make.height.equalTo(188)
             make.width.equalTo(360)
             make.centerY.equalToSuperview()
             make.leading.equalTo(20)
