@@ -15,13 +15,15 @@ class ViewController: UIViewController {
     private let arrowDownImage = UIImage(named: "ic_down_line_gray@2x.png")
     private let arrowUpImage = UIImage(named: "ic_up_line_gray@2x.png")
     
-    
+    private var parentView : UIView = UIView()
     private var todayContainerStackView : UIStackView = UIStackView()
     private var todayTopContainerView : UIView = UIView()
     private var todayRankStackView : UIStackView = UIStackView()
     private var flipButton : UIButton = UIButton()
     
-    private var todaySeachWordLabel : UILabel = UILabel()
+    private var todaySearchWordLabel : UILabel = UILabel()
+    
+    private var height : Int = 0
     
     private var isShowRankingView: Bool = false {
         didSet {
@@ -32,6 +34,7 @@ class ViewController: UIViewController {
     
     @objc private func onClickFlipButton(_ sender: UIButton) {
         isShowRankingView = !isShowRankingView
+        
     }
     
 
@@ -40,7 +43,6 @@ class ViewController: UIViewController {
         
         
         todayContainerStackView.snp.makeConstraints { (make) in
-            make.height.equalTo(188)
             make.width.equalTo(360)
             make.centerY.equalToSuperview()
             make.leading.equalTo(20)
@@ -55,28 +57,30 @@ class ViewController: UIViewController {
         todayTopContainerView.snp.makeConstraints { (make) in
             make.height.equalTo(20)
             make.left.right.equalToSuperview()
+            
         }
         todayTopContainerView.backgroundColor = .black
         
         todayRankStackView.snp.makeConstraints { (make) in
+            make.height.equalTo(100)
             make.left.right.equalToSuperview()
         }
         todayRankStackView.backgroundColor = .blue
         todayRankStackView.isHidden = !isShowRankingView
         
-        todayTopContainerView.addSubview(todaySeachWordLabel)
-        todaySeachWordLabel.snp.makeConstraints { (make) in
+        todayTopContainerView.addSubview(todaySearchWordLabel)
+        todaySearchWordLabel.snp.makeConstraints { (make) in
             make.centerY.equalToSuperview()
             make.left.equalToSuperview().offset(16)
             make.width.equalTo(62)
             make.height.equalTo(18)
         }
-        todaySeachWordLabel.backgroundColor = .yellow
-        todaySeachWordLabel.text = "오늘의 키워드"
-        todaySeachWordLabel.font = .systemFont(ofSize: 11)
-        todaySeachWordLabel.textColor = UIColor.blue
-        todaySeachWordLabel.layer.cornerRadius = 5
-        todaySeachWordLabel.layer.masksToBounds = true
+        todaySearchWordLabel.backgroundColor = .yellow
+        todaySearchWordLabel.text = "오늘의 키워드"
+        todaySearchWordLabel.font = .systemFont(ofSize: 11)
+        todaySearchWordLabel.textColor = UIColor.blue
+        todaySearchWordLabel.layer.cornerRadius = 5
+        todaySearchWordLabel.layer.masksToBounds = true
         
         todayTopContainerView.addSubview(flipButton)
         flipButton.snp.makeConstraints { (make) in
