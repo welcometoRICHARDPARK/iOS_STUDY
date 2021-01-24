@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BC2805925BD2414004E0FB3 /* ExpandableStackview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2805825BD2414004E0FB3 /* ExpandableStackview.swift */; };
 		0BCF261925BBAF5A00F02CF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF261825BBAF5A00F02CF1 /* AppDelegate.swift */; };
 		0BCF261B25BBAF5A00F02CF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF261A25BBAF5A00F02CF1 /* SceneDelegate.swift */; };
 		0BCF261D25BBAF5A00F02CF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF261C25BBAF5A00F02CF1 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BC2805825BD2414004E0FB3 /* ExpandableStackview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableStackview.swift; sourceTree = "<group>"; };
 		0BCF261525BBAF5A00F02CF1 /* snapkit_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapkit_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCF261825BBAF5A00F02CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BCF261A25BBAF5A00F02CF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				98C7C959E856CE90A73D916C /* Pods-snapkit_practice.debug.xcconfig */,
 				B7FDF146B989D15B04206215 /* Pods-snapkit_practice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -76,6 +77,7 @@
 				0BCF261825BBAF5A00F02CF1 /* AppDelegate.swift */,
 				0BCF261A25BBAF5A00F02CF1 /* SceneDelegate.swift */,
 				0BCF261C25BBAF5A00F02CF1 /* ViewController.swift */,
+				0BC2805825BD2414004E0FB3 /* ExpandableStackview.swift */,
 				0BCF261E25BBAF5A00F02CF1 /* Main.storyboard */,
 				0BCF262125BBAF5C00F02CF1 /* Assets.xcassets */,
 				0BCF262325BBAF5C00F02CF1 /* LaunchScreen.storyboard */,
@@ -207,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BCF261D25BBAF5A00F02CF1 /* ViewController.swift in Sources */,
+				0BC2805925BD2414004E0FB3 /* ExpandableStackview.swift in Sources */,
 				0BCF261925BBAF5A00F02CF1 /* AppDelegate.swift in Sources */,
 				0BCF261B25BBAF5A00F02CF1 /* SceneDelegate.swift in Sources */,
 			);

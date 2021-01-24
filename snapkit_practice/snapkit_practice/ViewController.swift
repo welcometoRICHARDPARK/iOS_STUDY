@@ -10,20 +10,19 @@ import Foundation
 import SnapKit
 
 
-
-class ViewController: UIViewController {
+public class ViewController: UIViewController {
     private let arrowDownImage = UIImage(named: "ic_down_line_gray@2x.png")
     private let arrowUpImage = UIImage(named: "ic_up_line_gray@2x.png")
     
     private var parentView : UIView = UIView()
     private var todayContainerStackView : UIStackView = UIStackView()
     private var todayTopContainerView : UIView = UIView()
-    private var todayRankStackView : UIStackView = UIStackView()
+    var todayRankStackView : UIStackView = UIStackView()
     private var flipButton : UIButton = UIButton()
     
     private var todaySearchWordLabel : UILabel = UILabel()
     
-    private var height : Int = 0
+    var height : Int = 0
     
     private var isShowRankingView: Bool = false {
         didSet {
@@ -38,10 +37,8 @@ class ViewController: UIViewController {
     }
     
 
-    override func viewDidLoad() {
-        self.view.addSubview(todayContainerStackView)
-        
-        
+    public func setTopContainerViewLayout() {
+        view.addSubview(todayContainerStackView)
         todayContainerStackView.snp.makeConstraints { (make) in
             make.width.equalTo(360)
             make.centerY.equalToSuperview()
@@ -53,11 +50,11 @@ class ViewController: UIViewController {
         todayContainerStackView.addArrangedSubview(todayTopContainerView)
         todayContainerStackView.addArrangedSubview(todayRankStackView)
         todayContainerStackView.backgroundColor = .red
+    
         
         todayTopContainerView.snp.makeConstraints { (make) in
             make.height.equalTo(20)
             make.left.right.equalToSuperview()
-            
         }
         todayTopContainerView.backgroundColor = .black
         
@@ -92,9 +89,10 @@ class ViewController: UIViewController {
         flipButton.backgroundColor = .white
         flipButton.setImage(isShowRankingView ? arrowUpImage : arrowDownImage, for: .normal)
         flipButton.addTarget(self, action: #selector(onClickFlipButton(_:)), for: .touchUpInside)
-       
+    }
+    public override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setTopContainerViewLayout()
     }
 
 
