@@ -10,11 +10,11 @@ import Foundation
 import SnapKit
 
 
-public class ViewController: UIViewController {
+public class richardView: UIView {
     private let arrowDownImage = UIImage(named: "ic_down_line_gray@2x.png")
     private let arrowUpImage = UIImage(named: "ic_up_line_gray@2x.png")
     
-    private var parentView : UIView = UIView()
+    
     private var todayContainerStackView : UIStackView = UIStackView()
     private var todayTopContainerView : UIView = UIView()
     var todayRankStackView : UIStackView = UIStackView()
@@ -23,6 +23,16 @@ public class ViewController: UIViewController {
     private var todaySearchWordLabel : UILabel = UILabel()
     
     var height : Int = 0
+    init(){
+        super.init(frame: .zero)
+        self.addSubview(todayContainerStackView)
+        setTopContainerViewLayout()
+    }
+    
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     private var isShowRankingView: Bool = false {
         didSet {
@@ -38,10 +48,11 @@ public class ViewController: UIViewController {
     
 
     public func setTopContainerViewLayout() {
-        view.addSubview(todayContainerStackView)
+        
         todayContainerStackView.snp.makeConstraints { (make) in
+//            make.edges.equalToSuperview()
             make.width.equalTo(360)
-            make.centerY.equalToSuperview()
+//            make.centerY.equalToSuperview()
             make.leading.equalTo(20)
             make.trailing.equalTo(-20)
         }
@@ -89,11 +100,9 @@ public class ViewController: UIViewController {
         flipButton.backgroundColor = .white
         flipButton.setImage(isShowRankingView ? arrowUpImage : arrowDownImage, for: .normal)
         flipButton.addTarget(self, action: #selector(onClickFlipButton(_:)), for: .touchUpInside)
+       
     }
-    public override func viewDidLoad() {
-        super.viewDidLoad()
-        setTopContainerViewLayout()
-    }
+    
 
 
 }

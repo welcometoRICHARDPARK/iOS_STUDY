@@ -9,29 +9,24 @@ import Foundation
 import UIKit
 import SnapKit
 
-public class ExpandableStackview : ViewController {
+public class ExpandableStackview : UIViewController {
+    private var addRichardView : richardView = richardView()
+    private var testView : UIView = UIView()
     
-    let a = ViewController()
-    let testView : UIView = UIView()
-    
-    
+
     public override func viewDidLoad() {
-        super.viewDidLoad()
-//        addTopViewController()
-        
-//        self.view.addSubview(testView)
-//        testView.snp.makeConstraints { (make) in
-//            make.width.equalTo(100)
-//            make.height.equalTo(testView.snp.width)
-//            make.centerY.equalToSuperview()
-//        }
-//        testView.backgroundColor = .blue
+        self.view.addSubview(addRichardView)
+        addRichardView.snp.makeConstraints { (make) in
+            make.leading.equalToSuperview().offset(20)
+            make.trailing.equalToSuperview().offset(-20)
+            make.centerY.equalToSuperview()
+            make.top.equalToSuperview().offset(100)
+            make.height.equalTo(100)
+        }
+        addRichardView.backgroundColor =  .black
+
         
     }
-    private func addTopViewController() {
-        addChild(a)
-        a.didMove(toParent: parent)
-        self.view.addSubview(a.view)
-    }
+    
 }
 
