@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "284C73AE73D45E8E63A32267EC8DD469"
-               BuildableName = "Pods_snapkit_practice.framework"
-               BlueprintName = "Pods-snapkit_practice"
+               BlueprintIdentifier = "7E4E14192CA0C51842E1C00B76476922"
+               BuildableName = "Pods_timeTableView.framework"
+               BlueprintName = "Pods-timeTableView"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

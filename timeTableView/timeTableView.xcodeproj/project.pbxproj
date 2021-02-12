@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B4CB3DA25C6DD6300722915 /* VCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CB3D925C6DD6300722915 /* VCTest.swift */; };
+		0B4CB3DD25C7CBE200722915 /* CellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CB3DC25C7CBE200722915 /* CellTest.swift */; };
+		0B66A9E425C39CDD00D76564 /* TimeTableFilterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B66A9E325C39CDD00D76564 /* TimeTableFilterData.swift */; };
+		0B66A9E725C3BFC200D76564 /* TimeTableViewControllersearchmore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B66A9E625C3BFC200D76564 /* TimeTableViewControllersearchmore.swift */; };
+		0B66AAF525C66BFD00D76564 /* TimeTableViewController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B66AAF425C66BFD00D76564 /* TimeTableViewController0.swift */; };
+		0B66AAF825C677B700D76564 /* TimeTableViewCellForController0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B66AAF725C677B700D76564 /* TimeTableViewCellForController0.swift */; };
+		0BC1333B25CA957500992E61 /* AlamofireAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1333A25CA957500992E61 /* AlamofireAPI.swift */; };
+		0BC1334225CAB0A200992E61 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1334125CAB0A200992E61 /* MainTableViewController.swift */; };
+		0BC2807E25BFC406004E0FB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2807D25BFC406004E0FB3 /* AppDelegate.swift */; };
+		0BC2808025BFC406004E0FB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2807F25BFC406004E0FB3 /* SceneDelegate.swift */; };
+		0BC2808225BFC406004E0FB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2808125BFC406004E0FB3 /* ViewController.swift */; };
+		0BC2808525BFC406004E0FB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC2808325BFC406004E0FB3 /* Main.storyboard */; };
+		0BC2808725BFC408004E0FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC2808625BFC408004E0FB3 /* Assets.xcassets */; };
+		0BC2808A25BFC408004E0FB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC2808825BFC408004E0FB3 /* LaunchScreen.storyboard */; };
+		0BC2809725BFC4C9004E0FB3 /* TimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2809625BFC4C9004E0FB3 /* TimeTableViewCell.swift */; };
+		0BC2809A25BFC638004E0FB3 /* TimeTableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2809925BFC638004E0FB3 /* TimeTableViewController1.swift */; };
+		0BC2809E25C06144004E0FB3 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2809D25C06144004E0FB3 /* NavigationViewController.swift */; };
+		0BC280A125C114A5004E0FB3 /* TimeTableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC280A025C114A5004E0FB3 /* TimeTableViewController2.swift */; };
+		7BAB5437A0FFF5E96D3DE756 /* Pods_timeTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F69FE5DFCD1603FCD44D6ED0 /* Pods_timeTableView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B4CB3D925C6DD6300722915 /* VCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTest.swift; sourceTree = "<group>"; };
+		0B4CB3DC25C7CBE200722915 /* CellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTest.swift; sourceTree = "<group>"; };
+		0B66A9E325C39CDD00D76564 /* TimeTableFilterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableFilterData.swift; sourceTree = "<group>"; };
+		0B66A9E625C3BFC200D76564 /* TimeTableViewControllersearchmore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewControllersearchmore.swift; sourceTree = "<group>"; };
+		0B66AAF425C66BFD00D76564 /* TimeTableViewController0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController0.swift; sourceTree = "<group>"; };
+		0B66AAF725C677B700D76564 /* TimeTableViewCellForController0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewCellForController0.swift; sourceTree = "<group>"; };
+		0BC1333A25CA957500992E61 /* AlamofireAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAPI.swift; sourceTree = "<group>"; };
+		0BC1334125CAB0A200992E61 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		0BC2807A25BFC406004E0FB3 /* timeTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC2807D25BFC406004E0FB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BC2807F25BFC406004E0FB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0BC2808125BFC406004E0FB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BC2808425BFC406004E0FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BC2808625BFC408004E0FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BC2808925BFC408004E0FB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BC2808B25BFC408004E0FB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC2809625BFC4C9004E0FB3 /* TimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewCell.swift; sourceTree = "<group>"; };
+		0BC2809925BFC638004E0FB3 /* TimeTableViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController1.swift; sourceTree = "<group>"; };
+		0BC2809D25C06144004E0FB3 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		0BC280A025C114A5004E0FB3 /* TimeTableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableViewController2.swift; sourceTree = "<group>"; };
+		E134D6EC72985E6328F9DE08 /* Pods-timeTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timeTableView.debug.xcconfig"; path = "Target Support Files/Pods-timeTableView/Pods-timeTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		EF93C1FD70248E9F3164A447 /* Pods-timeTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-timeTableView.release.xcconfig"; path = "Target Support Files/Pods-timeTableView/Pods-timeTableView.release.xcconfig"; sourceTree = "<group>"; };
+		F69FE5DFCD1603FCD44D6ED0 /* Pods_timeTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_timeTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BC2807725BFC406004E0FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAB5437A0FFF5E96D3DE756 /* Pods_timeTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC2807125BFC406004E0FB3 = {
+			isa = PBXGroup;
+			children = (
+				0BC2807C25BFC406004E0FB3 /* timeTableView */,
+				0BC2807B25BFC406004E0FB3 /* Products */,
+				D4B5C9495D09D5AD7D8A5544 /* Pods */,
+				25B632444465E23022FEA54F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0BC2807B25BFC406004E0FB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BC2807A25BFC406004E0FB3 /* timeTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BC2807C25BFC406004E0FB3 /* timeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				0BC2807D25BFC406004E0FB3 /* AppDelegate.swift */,
+				0BC2807F25BFC406004E0FB3 /* SceneDelegate.swift */,
+				0BC2808125BFC406004E0FB3 /* ViewController.swift */,
+				0BC2809D25C06144004E0FB3 /* NavigationViewController.swift */,
+				0BC2809625BFC4C9004E0FB3 /* TimeTableViewCell.swift */,
+				0BC2809925BFC638004E0FB3 /* TimeTableViewController1.swift */,
+				0BC280A025C114A5004E0FB3 /* TimeTableViewController2.swift */,
+				0B66A9E625C3BFC200D76564 /* TimeTableViewControllersearchmore.swift */,
+				0B66AAF425C66BFD00D76564 /* TimeTableViewController0.swift */,
+				0B4CB3D925C6DD6300722915 /* VCTest.swift */,
+				0B4CB3DC25C7CBE200722915 /* CellTest.swift */,
+				0B66AAF725C677B700D76564 /* TimeTableViewCellForController0.swift */,
+				0B66A9E325C39CDD00D76564 /* TimeTableFilterData.swift */,
+				0BC1333A25CA957500992E61 /* AlamofireAPI.swift */,
+				0BC1334125CAB0A200992E61 /* MainTableViewController.swift */,
+				0BC2808325BFC406004E0FB3 /* Main.storyboard */,
+				0BC2808625BFC408004E0FB3 /* Assets.xcassets */,
+				0BC2808825BFC408004E0FB3 /* LaunchScreen.storyboard */,
+				0BC2808B25BFC408004E0FB3 /* Info.plist */,
+			);
+			path = timeTableView;
+			sourceTree = "<group>";
+		};
+		25B632444465E23022FEA54F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F69FE5DFCD1603FCD44D6ED0 /* Pods_timeTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4B5C9495D09D5AD7D8A5544 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E134D6EC72985E6328F9DE08 /* Pods-timeTableView.debug.xcconfig */,
+				EF93C1FD70248E9F3164A447 /* Pods-timeTableView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BC2807925BFC406004E0FB3 /* timeTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC2808E25BFC408004E0FB3 /* Build configuration list for PBXNativeTarget "timeTableView" */;
+			buildPhases = (
+				E640894E755DDCBC9D660FDB /* [CP] Check Pods Manifest.lock */,
+				0BC2807625BFC406004E0FB3 /* Sources */,
+				0BC2807725BFC406004E0FB3 /* Frameworks */,
+				0BC2807825BFC406004E0FB3 /* Resources */,
+				AA7B68A65E2261961BB065DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timeTableView;
+			productName = timeTableView;
+			productReference = 0BC2807A25BFC406004E0FB3 /* timeTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BC2807225BFC406004E0FB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0BC2807925BFC406004E0FB3 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 0BC2807525BFC406004E0FB3 /* Build configuration list for PBXProject "timeTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BC2807125BFC406004E0FB3;
+			productRefGroup = 0BC2807B25BFC406004E0FB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BC2807925BFC406004E0FB3 /* timeTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BC2807825BFC406004E0FB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC2808A25BFC408004E0FB3 /* LaunchScreen.storyboard in Resources */,
+				0BC2808725BFC408004E0FB3 /* Assets.xcassets in Resources */,
+				0BC2808525BFC406004E0FB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA7B68A65E2261961BB065DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timeTableView/Pods-timeTableView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-timeTableView/Pods-timeTableView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-timeTableView/Pods-timeTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E640894E755DDCBC9D660FDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-timeTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BC2807625BFC406004E0FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B66A9E725C3BFC200D76564 /* TimeTableViewControllersearchmore.swift in Sources */,
+				0BC2809E25C06144004E0FB3 /* NavigationViewController.swift in Sources */,
+				0BC2809725BFC4C9004E0FB3 /* TimeTableViewCell.swift in Sources */,
+				0BC280A125C114A5004E0FB3 /* TimeTableViewController2.swift in Sources */,
+				0B66A9E425C39CDD00D76564 /* TimeTableFilterData.swift in Sources */,
+				0B66AAF525C66BFD00D76564 /* TimeTableViewController0.swift in Sources */,
+				0BC2808225BFC406004E0FB3 /* ViewController.swift in Sources */,
+				0BC2807E25BFC406004E0FB3 /* AppDelegate.swift in Sources */,
+				0B4CB3DD25C7CBE200722915 /* CellTest.swift in Sources */,
+				0B4CB3DA25C6DD6300722915 /* VCTest.swift in Sources */,
+				0B66AAF825C677B700D76564 /* TimeTableViewCellForController0.swift in Sources */,
+				0BC1333B25CA957500992E61 /* AlamofireAPI.swift in Sources */,
+				0BC2809A25BFC638004E0FB3 /* TimeTableViewController1.swift in Sources */,
+				0BC1334225CAB0A200992E61 /* MainTableViewController.swift in Sources */,
+				0BC2808025BFC406004E0FB3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BC2808325BFC406004E0FB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BC2808425BFC406004E0FB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BC2808825BFC408004E0FB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BC2808925BFC408004E0FB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BC2808C25BFC408004E0FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BC2808D25BFC408004E0FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BC2808F25BFC408004E0FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E134D6EC72985E6328F9DE08 /* Pods-timeTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7389FTCSZN;
+				INFOPLIST_FILE = timeTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = richard.timeTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BC2809025BFC408004E0FB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF93C1FD70248E9F3164A447 /* Pods-timeTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7389FTCSZN;
+				INFOPLIST_FILE = timeTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = richard.timeTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BC2807525BFC406004E0FB3 /* Build configuration list for PBXProject "timeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC2808C25BFC408004E0FB3 /* Debug */,
+				0BC2808D25BFC408004E0FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BC2808E25BFC408004E0FB3 /* Build configuration list for PBXNativeTarget "timeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC2808F25BFC408004E0FB3 /* Debug */,
+				0BC2809025BFC408004E0FB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BC2807225BFC406004E0FB3 /* Project object */;
+}
